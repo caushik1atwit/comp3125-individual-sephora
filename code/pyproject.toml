@@ -6,7 +6,7 @@ authors = [
     {name = "caushik1atwit",email = "caushik1@wit.edu"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<4"
 dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "duckdb (>=1.2.1,<2.0.0)",
@@ -16,6 +16,10 @@ dependencies = [
     "orjson (>=3.10.16,<4.0.0)",
     "beautifulsoup4 (>=4.13.3,<5.0.0)",
     "free-proxy (>=1.1.3,<2.0.0)",
+    "jupysql (>=0.11.1,<0.12.0)",
+    "duckdb-engine (>=0.17.0,<0.18.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
 ]
 
 [tool.poetry]
@@ -31,10 +35,10 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.flake8]
-max-line-length = 120
+max-line-length = 88
 
 [tool.black]
-line-length = 120
+line-length = 88
 
 [tool.isort]
-line_length = 120
+line_length = 88

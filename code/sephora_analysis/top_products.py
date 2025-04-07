@@ -6,6 +6,37 @@ import csv
 products = []
 
 
+# In case we need to get ingredients as well.
+def split_ingredients(text):
+    result = []
+    current = []
+    depth = 0
+
+    for char in text:
+        if char == "(":
+            depth += 1
+            current.append(char)
+        elif char == ")":
+            depth -= 1
+            current.append(char)
+        elif char in [",", ".", ":"] and depth == 0:
+            # Only split if we're outside of parentheses
+            item = "".join(current).strip()
+            if item:
+                result.append(item)
+            current = []
+        else:
+            current.append(char)
+
+    # Add any remaining text
+    if current:
+        item = "".join(current).strip()
+        if item:
+            result.append(item)
+
+    return result
+
+
 def parse_count(s: str):
     if s.endswith("K"):
         return int(float(s[:-1]) * 1_000)
@@ -41,7 +72,11 @@ for i in range(1, 100):
     t = soup.find_all("div", {"class": "css-11ifn8v e15t7owz0"})
     for a in t:
         link_tag = a.find("a")
-        product_id = link_tag["href"].split(":")[1].replace("p", "") if link_tag and link_tag.has_attr("href") else -1
+        product_id = (
+            link_tag["href"].split(":")[1].replace("p", "")
+            if link_tag and link_tag.has_attr("href")
+            else -1
+        )
 
         review_span = a.find("span", {"class": "css-qbbayi", "data-at": "review_count"})
         review_count = review_span.text.strip() if review_span else str(-1)
@@ -52,7 +87,9 @@ for i in range(1, 100):
         name_span = a.find("span", class_="css-1ma869u")
         product_name = name_span.text.strip() if name_span else "N/A"
 
-        products.append((product_id, parse_count(review_count), product_brand, product_name))
+        products.append(
+            (product_id, parse_count(review_count), product_brand, product_name)
+        )
 
 
 with open("products.csv", "w", newline="") as f:
