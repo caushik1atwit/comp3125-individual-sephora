@@ -67,6 +67,7 @@ The project is split in the following fashion:
 ```
 
 ## Data
+This directory contains all of the scraped data from Sephora.com
 
 > NOTE: This is a symlink to ./code/sephora_analysis/data
 
@@ -74,7 +75,11 @@ The project is split in the following fashion:
 
 This is the main area where the code is written. Poetry is used as a Python dependency manager.
 
-To run the code run: `poetry install` and followed by `poetry shell` and finally `eval $(poetry env activate)` to use the virtual env. 
+To run the code run: 
+1. `cd ./code`
+2. `poetry install`
+3. `poetry shell`
+4. `eval $(poetry env activate)` to use the virtual env. 
 
 When opening VSCODE, select the kernel/virtualvenv in ./code/.venv/bin/python
 
