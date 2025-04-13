@@ -995,6 +995,18 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "joblib"
+version = "1.4.2"
+description = "Lightweight pipelining with Python functions"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"},
+    {file = "joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e"},
+]
+
+[[package]]
 name = "jupysql"
 version = "0.11.1"
 description = "Better SQL in Jupyter"
@@ -2406,6 +2418,125 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "scikit-learn"
+version = "1.6.1"
+description = "A set of python modules for machine learning and data mining"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "scikit_learn-1.6.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d056391530ccd1e501056160e3c9673b4da4805eb67eb2bdf4e983e1f9c9204e"},
+    {file = "scikit_learn-1.6.1-cp310-cp310-macosx_12_0_arm64.whl", hash = "sha256:0c8d036eb937dbb568c6242fa598d551d88fb4399c0344d95c001980ec1c7d36"},
+    {file = "scikit_learn-1.6.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8634c4bd21a2a813e0a7e3900464e6d593162a29dd35d25bdf0103b3fce60ed5"},
+    {file = "scikit_learn-1.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:775da975a471c4f6f467725dff0ced5c7ac7bda5e9316b260225b48475279a1b"},
+    {file = "scikit_learn-1.6.1-cp310-cp310-win_amd64.whl", hash = "sha256:8a600c31592bd7dab31e1c61b9bbd6dea1b3433e67d264d17ce1017dbdce8002"},
+    {file = "scikit_learn-1.6.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:72abc587c75234935e97d09aa4913a82f7b03ee0b74111dcc2881cba3c5a7b33"},
+    {file = "scikit_learn-1.6.1-cp311-cp311-macosx_12_0_arm64.whl", hash = "sha256:b3b00cdc8f1317b5f33191df1386c0befd16625f49d979fe77a8d44cae82410d"},
+    {file = "scikit_learn-1.6.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dc4765af3386811c3ca21638f63b9cf5ecf66261cc4815c1db3f1e7dc7b79db2"},
+    {file = "scikit_learn-1.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:25fc636bdaf1cc2f4a124a116312d837148b5e10872147bdaf4887926b8c03d8"},
+    {file = "scikit_learn-1.6.1-cp311-cp311-win_amd64.whl", hash = "sha256:fa909b1a36e000a03c382aade0bd2063fd5680ff8b8e501660c0f59f021a6415"},
+    {file = "scikit_learn-1.6.1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:926f207c804104677af4857b2c609940b743d04c4c35ce0ddc8ff4f053cddc1b"},
+    {file = "scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl", hash = "sha256:2c2cae262064e6a9b77eee1c8e768fc46aa0b8338c6a8297b9b6759720ec0ff2"},
+    {file = "scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1061b7c028a8663fb9a1a1baf9317b64a257fcb036dae5c8752b2abef31d136f"},
+    {file = "scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2e69fab4ebfc9c9b580a7a80111b43d214ab06250f8a7ef590a4edf72464dd86"},
+    {file = "scikit_learn-1.6.1-cp312-cp312-win_amd64.whl", hash = "sha256:70b1d7e85b1c96383f872a519b3375f92f14731e279a7b4c6cfd650cf5dffc52"},
+    {file = "scikit_learn-1.6.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:2ffa1e9e25b3d93990e74a4be2c2fc61ee5af85811562f1288d5d055880c4322"},
+    {file = "scikit_learn-1.6.1-cp313-cp313-macosx_12_0_arm64.whl", hash = "sha256:dc5cf3d68c5a20ad6d571584c0750ec641cc46aeef1c1507be51300e6003a7e1"},
+    {file = "scikit_learn-1.6.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c06beb2e839ecc641366000ca84f3cf6fa9faa1777e29cf0c04be6e4d096a348"},
+    {file = "scikit_learn-1.6.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e8ca8cb270fee8f1f76fa9bfd5c3507d60c6438bbee5687f81042e2bb98e5a97"},
+    {file = "scikit_learn-1.6.1-cp313-cp313-win_amd64.whl", hash = "sha256:7a1c43c8ec9fde528d664d947dc4c0789be4077a3647f232869f41d9bf50e0fb"},
+    {file = "scikit_learn-1.6.1-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:a17c1dea1d56dcda2fac315712f3651a1fea86565b64b48fa1bc090249cbf236"},
+    {file = "scikit_learn-1.6.1-cp313-cp313t-macosx_12_0_arm64.whl", hash = "sha256:6a7aa5f9908f0f28f4edaa6963c0a6183f1911e63a69aa03782f0d924c830a35"},
+    {file = "scikit_learn-1.6.1-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0650e730afb87402baa88afbf31c07b84c98272622aaba002559b614600ca691"},
+    {file = "scikit_learn-1.6.1-cp313-cp313t-win_amd64.whl", hash = "sha256:3f59fe08dc03ea158605170eb52b22a105f238a5d512c4470ddeca71feae8e5f"},
+    {file = "scikit_learn-1.6.1-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:6849dd3234e87f55dce1db34c89a810b489ead832aaf4d4550b7ea85628be6c1"},
+    {file = "scikit_learn-1.6.1-cp39-cp39-macosx_12_0_arm64.whl", hash = "sha256:e7be3fa5d2eb9be7d77c3734ff1d599151bb523674be9b834e8da6abe132f44e"},
+    {file = "scikit_learn-1.6.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:44a17798172df1d3c1065e8fcf9019183f06c87609b49a124ebdf57ae6cb0107"},
+    {file = "scikit_learn-1.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b8b7a3b86e411e4bce21186e1c180d792f3d99223dcfa3b4f597ecc92fa1a422"},
+    {file = "scikit_learn-1.6.1-cp39-cp39-win_amd64.whl", hash = "sha256:7a73d457070e3318e32bdb3aa79a8d990474f19035464dfd8bede2883ab5dc3b"},
+    {file = "scikit_learn-1.6.1.tar.gz", hash = "sha256:b4fc2525eca2c69a59260f583c56a7557c6ccdf8deafdba6e060f94c1c59738e"},
+]
+
+[package.dependencies]
+joblib = ">=1.2.0"
+numpy = ">=1.19.5"
+scipy = ">=1.6.0"
+threadpoolctl = ">=3.1.0"
+
+[package.extras]
+benchmark = ["matplotlib (>=3.3.4)", "memory_profiler (>=0.57.0)", "pandas (>=1.1.5)"]
+build = ["cython (>=3.0.10)", "meson-python (>=0.16.0)", "numpy (>=1.19.5)", "scipy (>=1.6.0)"]
+docs = ["Pillow (>=7.1.2)", "matplotlib (>=3.3.4)", "memory_profiler (>=0.57.0)", "numpydoc (>=1.2.0)", "pandas (>=1.1.5)", "plotly (>=5.14.0)", "polars (>=0.20.30)", "pooch (>=1.6.0)", "pydata-sphinx-theme (>=0.15.3)", "scikit-image (>=0.17.2)", "seaborn (>=0.9.0)", "sphinx (>=7.3.7)", "sphinx-copybutton (>=0.5.2)", "sphinx-design (>=0.5.0)", "sphinx-design (>=0.6.0)", "sphinx-gallery (>=0.17.1)", "sphinx-prompt (>=1.4.0)", "sphinx-remove-toctrees (>=1.0.0.post1)", "sphinxcontrib-sass (>=0.3.4)", "sphinxext-opengraph (>=0.9.1)", "towncrier (>=24.8.0)"]
+examples = ["matplotlib (>=3.3.4)", "pandas (>=1.1.5)", "plotly (>=5.14.0)", "pooch (>=1.6.0)", "scikit-image (>=0.17.2)", "seaborn (>=0.9.0)"]
+install = ["joblib (>=1.2.0)", "numpy (>=1.19.5)", "scipy (>=1.6.0)", "threadpoolctl (>=3.1.0)"]
+maintenance = ["conda-lock (==2.5.6)"]
+tests = ["black (>=24.3.0)", "matplotlib (>=3.3.4)", "mypy (>=1.9)", "numpydoc (>=1.2.0)", "pandas (>=1.1.5)", "polars (>=0.20.30)", "pooch (>=1.6.0)", "pyamg (>=4.0.0)", "pyarrow (>=12.0.0)", "pytest (>=7.1.2)", "pytest-cov (>=2.9.0)", "ruff (>=0.5.1)", "scikit-image (>=0.17.2)"]
+
+[[package]]
+name = "scipy"
+version = "1.15.2"
+description = "Fundamental algorithms for scientific computing in Python"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "scipy-1.15.2-cp310-cp310-macosx_10_13_x86_64.whl", hash = "sha256:a2ec871edaa863e8213ea5df811cd600734f6400b4af272e1c011e69401218e9"},
+    {file = "scipy-1.15.2-cp310-cp310-macosx_12_0_arm64.whl", hash = "sha256:6f223753c6ea76983af380787611ae1291e3ceb23917393079dcc746ba60cfb5"},
+    {file = "scipy-1.15.2-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:ecf797d2d798cf7c838c6d98321061eb3e72a74710e6c40540f0e8087e3b499e"},
+    {file = "scipy-1.15.2-cp310-cp310-macosx_14_0_x86_64.whl", hash = "sha256:9b18aa747da280664642997e65aab1dd19d0c3d17068a04b3fe34e2559196cb9"},
+    {file = "scipy-1.15.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:87994da02e73549dfecaed9e09a4f9d58a045a053865679aeb8d6d43747d4df3"},
+    {file = "scipy-1.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:69ea6e56d00977f355c0f84eba69877b6df084516c602d93a33812aa04d90a3d"},
+    {file = "scipy-1.15.2-cp310-cp310-musllinux_1_2_aarch64.whl", hash = "sha256:888307125ea0c4466287191e5606a2c910963405ce9671448ff9c81c53f85f58"},
+    {file = "scipy-1.15.2-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:9412f5e408b397ff5641080ed1e798623dbe1ec0d78e72c9eca8992976fa65aa"},
+    {file = "scipy-1.15.2-cp310-cp310-win_amd64.whl", hash = "sha256:b5e025e903b4f166ea03b109bb241355b9c42c279ea694d8864d033727205e65"},
+    {file = "scipy-1.15.2-cp311-cp311-macosx_10_13_x86_64.whl", hash = "sha256:92233b2df6938147be6fa8824b8136f29a18f016ecde986666be5f4d686a91a4"},
+    {file = "scipy-1.15.2-cp311-cp311-macosx_12_0_arm64.whl", hash = "sha256:62ca1ff3eb513e09ed17a5736929429189adf16d2d740f44e53270cc800ecff1"},
+    {file = "scipy-1.15.2-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:4c6676490ad76d1c2894d77f976144b41bd1a4052107902238047fb6a473e971"},
+    {file = "scipy-1.15.2-cp311-cp311-macosx_14_0_x86_64.whl", hash = "sha256:a8bf5cb4a25046ac61d38f8d3c3426ec11ebc350246a4642f2f315fe95bda655"},
+    {file = "scipy-1.15.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6a8e34cf4c188b6dd004654f88586d78f95639e48a25dfae9c5e34a6dc34547e"},
+    {file = "scipy-1.15.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:28a0d2c2075946346e4408b211240764759e0fabaeb08d871639b5f3b1aca8a0"},
+    {file = "scipy-1.15.2-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:42dabaaa798e987c425ed76062794e93a243be8f0f20fff6e7a89f4d61cb3d40"},
+    {file = "scipy-1.15.2-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:6f5e296ec63c5da6ba6fa0343ea73fd51b8b3e1a300b0a8cae3ed4b1122c7462"},
+    {file = "scipy-1.15.2-cp311-cp311-win_amd64.whl", hash = "sha256:597a0c7008b21c035831c39927406c6181bcf8f60a73f36219b69d010aa04737"},
+    {file = "scipy-1.15.2-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:c4697a10da8f8765bb7c83e24a470da5797e37041edfd77fd95ba3811a47c4fd"},
+    {file = "scipy-1.15.2-cp312-cp312-macosx_12_0_arm64.whl", hash = "sha256:869269b767d5ee7ea6991ed7e22b3ca1f22de73ab9a49c44bad338b725603301"},
+    {file = "scipy-1.15.2-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:bad78d580270a4d32470563ea86c6590b465cb98f83d760ff5b0990cb5518a93"},
+    {file = "scipy-1.15.2-cp312-cp312-macosx_14_0_x86_64.whl", hash = "sha256:b09ae80010f52efddb15551025f9016c910296cf70adbf03ce2a8704f3a5ad20"},
+    {file = "scipy-1.15.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5a6fd6eac1ce74a9f77a7fc724080d507c5812d61e72bd5e4c489b042455865e"},
+    {file = "scipy-1.15.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2b871df1fe1a3ba85d90e22742b93584f8d2b8e6124f8372ab15c71b73e428b8"},
+    {file = "scipy-1.15.2-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:03205d57a28e18dfd39f0377d5002725bf1f19a46f444108c29bdb246b6c8a11"},
+    {file = "scipy-1.15.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:601881dfb761311045b03114c5fe718a12634e5608c3b403737ae463c9885d53"},
+    {file = "scipy-1.15.2-cp312-cp312-win_amd64.whl", hash = "sha256:e7c68b6a43259ba0aab737237876e5c2c549a031ddb7abc28c7b47f22e202ded"},
+    {file = "scipy-1.15.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:01edfac9f0798ad6b46d9c4c9ca0e0ad23dbf0b1eb70e96adb9fa7f525eff0bf"},
+    {file = "scipy-1.15.2-cp313-cp313-macosx_12_0_arm64.whl", hash = "sha256:08b57a9336b8e79b305a143c3655cc5bdbe6d5ece3378578888d2afbb51c4e37"},
+    {file = "scipy-1.15.2-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:54c462098484e7466362a9f1672d20888f724911a74c22ae35b61f9c5919183d"},
+    {file = "scipy-1.15.2-cp313-cp313-macosx_14_0_x86_64.whl", hash = "sha256:cf72ff559a53a6a6d77bd8eefd12a17995ffa44ad86c77a5df96f533d4e6c6bb"},
+    {file = "scipy-1.15.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9de9d1416b3d9e7df9923ab23cd2fe714244af10b763975bea9e4f2e81cebd27"},
+    {file = "scipy-1.15.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fb530e4794fc8ea76a4a21ccb67dea33e5e0e60f07fc38a49e821e1eae3b71a0"},
+    {file = "scipy-1.15.2-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:5ea7ed46d437fc52350b028b1d44e002646e28f3e8ddc714011aaf87330f2f32"},
+    {file = "scipy-1.15.2-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:11e7ad32cf184b74380f43d3c0a706f49358b904fa7d5345f16ddf993609184d"},
+    {file = "scipy-1.15.2-cp313-cp313-win_amd64.whl", hash = "sha256:a5080a79dfb9b78b768cebf3c9dcbc7b665c5875793569f48bf0e2b1d7f68f6f"},
+    {file = "scipy-1.15.2-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:447ce30cee6a9d5d1379087c9e474628dab3db4a67484be1b7dc3196bfb2fac9"},
+    {file = "scipy-1.15.2-cp313-cp313t-macosx_12_0_arm64.whl", hash = "sha256:c90ebe8aaa4397eaefa8455a8182b164a6cc1d59ad53f79943f266d99f68687f"},
+    {file = "scipy-1.15.2-cp313-cp313t-macosx_14_0_arm64.whl", hash = "sha256:def751dd08243934c884a3221156d63e15234a3155cf25978b0a668409d45eb6"},
+    {file = "scipy-1.15.2-cp313-cp313t-macosx_14_0_x86_64.whl", hash = "sha256:302093e7dfb120e55515936cb55618ee0b895f8bcaf18ff81eca086c17bd80af"},
+    {file = "scipy-1.15.2-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7cd5b77413e1855351cdde594eca99c1f4a588c2d63711388b6a1f1c01f62274"},
+    {file = "scipy-1.15.2-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6d0194c37037707b2afa7a2f2a924cf7bac3dc292d51b6a925e5fcb89bc5c776"},
+    {file = "scipy-1.15.2-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:bae43364d600fdc3ac327db99659dcb79e6e7ecd279a75fe1266669d9a652828"},
+    {file = "scipy-1.15.2-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:f031846580d9acccd0044efd1a90e6f4df3a6e12b4b6bd694a7bc03a89892b28"},
+    {file = "scipy-1.15.2-cp313-cp313t-win_amd64.whl", hash = "sha256:fe8a9eb875d430d81755472c5ba75e84acc980e4a8f6204d402849234d3017db"},
+    {file = "scipy-1.15.2.tar.gz", hash = "sha256:cd58a314d92838f7e6f755c8a2167ead4f27e1fd5c1251fd54289569ef3495ec"},
+]
+
+[package.dependencies]
+numpy = ">=1.23.5,<2.5"
+
+[package.extras]
+dev = ["cython-lint (>=0.12.2)", "doit (>=0.36.0)", "mypy (==1.10.0)", "pycodestyle", "pydevtool", "rich-click", "ruff (>=0.0.292)", "types-psutil", "typing_extensions"]
+doc = ["intersphinx_registry", "jupyterlite-pyodide-kernel", "jupyterlite-sphinx (>=0.16.5)", "jupytext", "matplotlib (>=3.5)", "myst-nb", "numpydoc", "pooch", "pydata-sphinx-theme (>=0.15.2)", "sphinx (>=5.0.0,<8.0.0)", "sphinx-copybutton", "sphinx-design (>=0.4.0)"]
+test = ["Cython", "array-api-strict (>=2.0,<2.1.1)", "asv", "gmpy2", "hypothesis (>=6.30)", "meson", "mpmath", "ninja ; sys_platform != \"emscripten\"", "pooch", "pytest", "pytest-cov", "pytest-timeout", "pytest-xdist", "scikit-umfpack", "threadpoolctl"]
+
+[[package]]
 name = "seaborn"
 version = "0.13.2"
 description = "Statistical data visualization"
@@ -2600,6 +2731,18 @@ pure-eval = "*"
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
+name = "threadpoolctl"
+version = "3.6.0"
+description = "threadpoolctl"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "threadpoolctl-3.6.0-py3-none-any.whl", hash = "sha256:43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb"},
+    {file = "threadpoolctl-3.6.0.tar.gz", hash = "sha256:8ab8b4aa3491d812b623328249fab5302a68d2d71745c8a4c719a2fcaba9f44e"},
+]
+
+[[package]]
 name = "tomli"
 version = "2.2.1"
 description = "A lil' TOML parser"
@@ -2734,7 +2877,94 @@ files = [
     {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
 ]
 
+[[package]]
+name = "wordcloud"
+version = "1.9.4"
+description = "A little word cloud generator"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "wordcloud-1.9.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:61a84e7311fce8415943edcb7b2ba65b4bfec1dc6dff8fe5a8ea76e278447fb2"},
+    {file = "wordcloud-1.9.4-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:8e8752750726f31385f364823d3ef1d9c8ec829e5c07706c36beb40679945c71"},
+    {file = "wordcloud-1.9.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:990dfd6dd43a1c7fa156be865eb98aba167a986b65f56cbf50e24772107fcd70"},
+    {file = "wordcloud-1.9.4-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a70fe8999cd63aec64daa0377b720be6e5ff344963b828caeb4c2a081599a3a0"},
+    {file = "wordcloud-1.9.4-cp310-cp310-musllinux_1_2_i686.whl", hash = "sha256:37dcd5500cc2ea02950739390e89e2efa6624c2f54b5e2df1ee961fce685b2d7"},
+    {file = "wordcloud-1.9.4-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:f5cc5c902dc2492b9fc0e29a1f5c688422d7e6eb9e5c0e43f0331d1c8e1341ba"},
+    {file = "wordcloud-1.9.4-cp310-cp310-win32.whl", hash = "sha256:c20fbb51af2046c940b4fead4bafffc30b4191f5fb477c3af844446d8956bfd4"},
+    {file = "wordcloud-1.9.4-cp310-cp310-win_amd64.whl", hash = "sha256:61a153e76d73c72f5cc6c89ee80ddad70758a207c3c6b1d86be8635ec70164f1"},
+    {file = "wordcloud-1.9.4-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:af168eeaed67a675f35b5668a7804c4d64f8e4f62a273b909eb5cc39efc4c294"},
+    {file = "wordcloud-1.9.4-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:3092bf85cb20158c8b90d78650dc0226985109ac6fe13a0086ac47b9581b62ce"},
+    {file = "wordcloud-1.9.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ddfb852f551681f5e33feb934505e060952b6aa98aaa48c781cdbf101f84e7cc"},
+    {file = "wordcloud-1.9.4-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:57ad8064a634a4870fcd00a9694c0a7839c6dfbac3d32522c69d5e1e9cbfd911"},
+    {file = "wordcloud-1.9.4-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:ea14858973ad8561a20a5475eb8d7ad33622bc5f27c60206fbb3e10a036cee26"},
+    {file = "wordcloud-1.9.4-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:b27759f12dd235468ff8c1df875b106b23dbf2c74aae05cdcdc3ccd8e23ea89c"},
+    {file = "wordcloud-1.9.4-cp311-cp311-win32.whl", hash = "sha256:0ac3d87627022fb8cce17297298be96c91185edd55ecf8906f89f981b55974f0"},
+    {file = "wordcloud-1.9.4-cp311-cp311-win_amd64.whl", hash = "sha256:85368249df056527f1b64e80e68636abb61f0f6bd2d1c430894d2af1feea7f73"},
+    {file = "wordcloud-1.9.4-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:3910494ce5acb27731fd5678d146e8aa8f588d5fdb455810c817ff4b84ee0f67"},
+    {file = "wordcloud-1.9.4-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:1b1c29a0089ee90778700cc96305fa830a6a5bbb342eaaa59d6ac8d37a9b232f"},
+    {file = "wordcloud-1.9.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f369ae7bef16341c2bb208e658d5e4c56517046eb6176f89ac95525eaf8ace09"},
+    {file = "wordcloud-1.9.4-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:9ec6ffba61ca20123e7c09103a5692bbc3163f75ee0bdc7893e80e0e2786ccd2"},
+    {file = "wordcloud-1.9.4-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:cdc4aac2bcce77fd91dbfe91db5a8c0cdc239e10d8954356d2ebf79a3b43646c"},
+    {file = "wordcloud-1.9.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:e4942fbed48a88a0c42c5b0a057651fc09d26b31be8b6c069adaaa5051836040"},
+    {file = "wordcloud-1.9.4-cp312-cp312-win32.whl", hash = "sha256:96b801fe4b2aa39bb6c5e68b4a74c81fd8996dd5fb5cea31fda518dc5f77ad82"},
+    {file = "wordcloud-1.9.4-cp312-cp312-win_amd64.whl", hash = "sha256:360977705d0808a1795fcbe98afb5dc4833cb4bb8e421cbb10e93ef0bce816ff"},
+    {file = "wordcloud-1.9.4-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:88c4c99f43b13df0e812fac0e4680cca2afd3ce16ade506812127ed7c7b9d132"},
+    {file = "wordcloud-1.9.4-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:2367ec70b2f195c278f91caf4674871ee9218eb57250e01a02b986d34e55f88e"},
+    {file = "wordcloud-1.9.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d6104a52936886dbc785844ab6986b5321a312238abb242ee4062c7b3fdcca7c"},
+    {file = "wordcloud-1.9.4-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:81bbe75b2725730bf5cbabfe86a5c38960e7ce1166f76ba7001964d8de50b3a7"},
+    {file = "wordcloud-1.9.4-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:a936b8e03c32cc84c99ad8f1bdaf261dfef6c44d31ca5b0c7d0df147220dbb3c"},
+    {file = "wordcloud-1.9.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:046300566df97b48640bd3efd94957a56941ada98cc23f811bc3f9b6a0ac1350"},
+    {file = "wordcloud-1.9.4-cp313-cp313-win32.whl", hash = "sha256:22357990a01d87579dbd38a06c2a5c7b601179c4e17517b1b8f73d25faa6a5ed"},
+    {file = "wordcloud-1.9.4-cp313-cp313-win_amd64.whl", hash = "sha256:8c9a5af2fbcf029a19e827adbee58e86efe7536dca7a42380a8601113a86069b"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:42affa75c1b033cb0a0afb674f653c4af16d51d97a0852c5770b659b903d9af5"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e0876722c35cf4d5d7717ab81ba98b946e07b0e869252248fdd9ea1fd6c977cc"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:489079ef173fe83ccff8baffd7a3c2d5fedfd31221c25ad21b4de770ea37b49f"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-musllinux_1_2_i686.whl", hash = "sha256:3f3dc2dacca48eac9b130a8938b473db81cfbeeb1a738530a7098913941a8211"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-musllinux_1_2_x86_64.whl", hash = "sha256:2e509c4588ae2ce47ee5cc5cf353422e7f7ecc38f450998654ed50565c8a550d"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-win32.whl", hash = "sha256:8009f53ba0c3b2d6f2b1dad83e0fb165ebcdfbd000ce62ebe0917106f51d975d"},
+    {file = "wordcloud-1.9.4-cp37-cp37m-win_amd64.whl", hash = "sha256:30b1a59b9073eaaa4f2b0f27d5b6b6c3eb6aaa3a6e0b3dbb2220036b25b37dac"},
+    {file = "wordcloud-1.9.4-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:8a685babefe032716c1a00b7d8cec3f6bfdc1c89fd839578432fc53824a02fea"},
+    {file = "wordcloud-1.9.4-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:b78b9fb292a243cf8fcdf63b9cc1fd157ec6abbf1a6e675303668b85e948f616"},
+    {file = "wordcloud-1.9.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f51ab42c00bc4782ab45701de45226a269ca0850df14e1bd63a60da73271724e"},
+    {file = "wordcloud-1.9.4-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:38ee69d9404504cf2419d60c3017af7ab9e88f4ba6cf47bc1c96b2d5e58ef513"},
+    {file = "wordcloud-1.9.4-cp38-cp38-musllinux_1_2_i686.whl", hash = "sha256:9955223708f196c1e431ae3b86074409bc256c5868e4f50eb9c36c6f06f8b1a3"},
+    {file = "wordcloud-1.9.4-cp38-cp38-musllinux_1_2_x86_64.whl", hash = "sha256:3585ab8f4f09f1508f2d351ed48f9b56472ae26eaf6e2d2e76e975abd715d7a2"},
+    {file = "wordcloud-1.9.4-cp38-cp38-win32.whl", hash = "sha256:d7d0b89c2ada0e65d84a6ebbdd8d36876b5da1a143cce2f7dcdaff6714232d24"},
+    {file = "wordcloud-1.9.4-cp38-cp38-win_amd64.whl", hash = "sha256:bd7caefe91d4084c1608d816052eeb605d9a7aee0c908f3a9d7421ee6363bde0"},
+    {file = "wordcloud-1.9.4-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:e5b2f7195adef0a071dc24a568d8a7715bc5cf5d752b4560f51da3aa4467dcf8"},
+    {file = "wordcloud-1.9.4-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:34843fa49135c4ed3739dea050696e707fd00e7335ee4ed62c33639589f90adf"},
+    {file = "wordcloud-1.9.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6570cc4e48e8e951d24ef6599cd8bf7ff405fbe995ff6d596bcdfa290a6206a8"},
+    {file = "wordcloud-1.9.4-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:17f944805a17b8343eb877c9aa1dc9e5339eb14c02dd00ec80feccea899bbf81"},
+    {file = "wordcloud-1.9.4-cp39-cp39-musllinux_1_2_i686.whl", hash = "sha256:7c1cd2a6ef876f5f9fe0255e44f131a6113f883447ed1cf8bdb86f569603bac9"},
+    {file = "wordcloud-1.9.4-cp39-cp39-musllinux_1_2_x86_64.whl", hash = "sha256:2b129584327ba21d05869fcf9495f10f7b31a34a580c431c4942a71ce2317e79"},
+    {file = "wordcloud-1.9.4-cp39-cp39-win32.whl", hash = "sha256:526dfd822600f158210a191a59cc4bdcaaa1ff05ab2aa199040d857a518b1db6"},
+    {file = "wordcloud-1.9.4-cp39-cp39-win_amd64.whl", hash = "sha256:ac32b851a19b7d2a9ee5e0aebc8210bf16eadc42c5c0da82e36d447552c8ec48"},
+    {file = "wordcloud-1.9.4-pp310-pypy310_pp73-macosx_10_15_x86_64.whl", hash = "sha256:f733cca468eae79af83cdda1de2434f1799cefef461ed892e7679d5a4c929fa1"},
+    {file = "wordcloud-1.9.4-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3a99f96efe5983c6eed17abb8766ced713ddf18b26450da74addc91570922e62"},
+    {file = "wordcloud-1.9.4-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:80773ec6a9caa2048602bc347151e3b6e68e1d8fab148dfd0d2e7d4302ce5c01"},
+    {file = "wordcloud-1.9.4-pp310-pypy310_pp73-win_amd64.whl", hash = "sha256:ca95392bba150190cca8df4a97854b554bdeb28007f28bf4698bd7e1af91b310"},
+    {file = "wordcloud-1.9.4-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:eed94b42676f4cfa9b9bdac777e3a1f046b16250216dd8ddcb583c4b6e4b1286"},
+    {file = "wordcloud-1.9.4-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b38aae2ff7aa10ad00d57a5b87ed4a573ef04dbc9119d4a304349c9cb3e03b6e"},
+    {file = "wordcloud-1.9.4-pp37-pypy37_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:c3057be0d071afd57afb9be84fec767abdd78eac6396ead0f0f55c6775170945"},
+    {file = "wordcloud-1.9.4-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:9c39351d2cffc15e3794f7afab78e9135d700f61c5b51904c55d9f3729d1a0df"},
+    {file = "wordcloud-1.9.4-pp38-pypy38_pp73-macosx_10_9_x86_64.whl", hash = "sha256:914745f0312d248c1a0e1f16ae7b3ce82f78924a2b050ca912d2453c62586da4"},
+    {file = "wordcloud-1.9.4-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:885d51d20cc7b0dad2306fb76b867de20e759e005a1a6e183f3865b5e5f53985"},
+    {file = "wordcloud-1.9.4-pp38-pypy38_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:61fc126ed9ce8d55bf20acbdc00284f5a6da66900197a2dd7b62c5ac37585ac5"},
+    {file = "wordcloud-1.9.4-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:c7b8536955f5026b0587ff829265392185b6b4bc923f2ed933c805fcac412b28"},
+    {file = "wordcloud-1.9.4-pp39-pypy39_pp73-macosx_10_15_x86_64.whl", hash = "sha256:6a30ed8aa50b98edb113f72ef619581c221ba3678adeeed88345263c90092561"},
+    {file = "wordcloud-1.9.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a62627e5b081b23a4586104d4b01d064db7b53342ae123b511326585eaf7433c"},
+    {file = "wordcloud-1.9.4-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e137493365770f59655c7308ff76addc95ada2c6bd50ac119e4c33091e2e4e08"},
+    {file = "wordcloud-1.9.4-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:665f8e7de3dcc1e43aa5bdd9560d56ed51026ba638a33472eede2b9051108adb"},
+    {file = "wordcloud-1.9.4.tar.gz", hash = "sha256:b273d8a5ded97d3ead904046b49464dcb71119ee79df875072a4c105cadd347a"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+numpy = ">=1.6.1"
+pillow = "*"
+
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<4"
-content-hash = "a948e78018d7bcdfa345cb4b94cdf0b96ba9b06bb64338a7e053d4157dfc8d04"
+content-hash = "1f433d4c852b1a0ee01e22eab1ebc86f49bc0495568b95953a90bc8795725f9c"
